@@ -21,7 +21,7 @@ export class AppComponent {
             { name: 'protein' }
         ],
         id: 'id',
-        url: '../assets/beverages.txt'
+        url: '../assets/products.txt'
     }
 
 	getWidth() : any {
@@ -37,7 +37,7 @@ export class AppComponent {
     columns: any[] =
     [
         { text: 'Name', datafield: 'name', width: 100, hidden: true },
-        { text: 'Beverage Type', datafield: 'type' },
+        { text: 'Type', datafield: 'type' },
         { text: 'Calories', datafield: 'calories' },
         { text: 'Total Fat', datafield: 'totalfat' },
         { text: 'Protein', datafield: 'protein' }
@@ -45,7 +45,7 @@ export class AppComponent {
 
     listBoxSource: any[] =
     [
-        { label: 'Name', value: 'name', checked: false }, { label: 'Beverage Type', value: 'type', checked: true },
+        { label: 'Name', value: 'name', checked: false }, { label: 'Type', value: 'type', checked: true },
         { label: 'Calories', value: 'calories', checked: true }, { label: 'Total Fat', value: 'totalfat', checked: true },
         { label: 'Protein', value: 'protein', checked: true }
     ];

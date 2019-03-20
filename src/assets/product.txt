@@ -1,0 +1,15 @@
+[{
+ "id": "1",
+ "name": "Test1",
+ "type": "Chocolate",
+ "calories": "370",
+ "totalfat": "16g",
+ "protein": "14g"
+ }, {
+ "id": 2,
+ "name": "Test2",
+ "type": "Cookies",
+ "calories": "440",
+ "totalfat": "16g",
+ "protein": "13g"
+}]
